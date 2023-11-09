@@ -1,0 +1,83 @@
+body{
+  color: grey;
+}
+
+.son{
+  margin: 15px 0;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  gap: 30rem;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  background: linear-gradient(#4ec9fa,#5e045e);
+  border-bottom-right-radius: 5rem 50%;
+  border-bottom-left-radius: 3rem 50%;
+  margin: 40px auto;
+  width: 600px;
+  height: 400px;
+  padding-bottom: 20px;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 50px;
+  padding: 20px;
+  color: blue;
+}
+.paragraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two{
+  display: flex;
+  border: 20px;
+  padding: 59px;
+  justify-content: center;
+}
+
+.images{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+
+}
+
+.second{
+  color: #5e045e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8rem;
+}
+
+.flow{
+  background: linear-gradient(#4ec9fa,#5e045e);
+  border-bottom-right-radius: 1rem 50%;
+  border-bottom-left-radius: rem 50%;
+  margin: 40px auto;
+  width: 400px;
+  height: 300px;
+  border-bottom: 1px white
+}
