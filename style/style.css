@@ -32,8 +32,10 @@ body {
   align-items: center;
   border: 50px;
   padding: 20px;
-  color: blue;
+  color: whitesmoke;
 }
+
+s
 .paragraph {
   display: flex;
   justify-content: center;
@@ -72,11 +74,20 @@ body {
   gap: 8rem;
 }
 
-.flow {
+.flow{
+  background: linear-gradient(#4ec9fa,#5e045e);
   border-bottom-right-radius: 1rem 50%;
-  border-bottom-left-radius: rem 50%;
+  border-bottom-left-radius: 1rem 50%;
   margin: 40px auto;
-  width: 400px;
-  height: 300px;
-  border-bottom: 1px; 
+  width: 600px;
+  height: 400px;
+  padding-bottom: 20px;
+}
+
+.section{
+  border-bottom: 1px white;
+}
+
+ul{
+  list-style: none;
 }
